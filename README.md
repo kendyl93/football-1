@@ -5,7 +5,7 @@ first version
 var Football = require('football-data-api');
 var token = 'YOUR_TOKEN'
 var options = { 
-    url: 'http://api.football-data.org/v1/soccerseasons/', 
+    url: 'http://api.football-data.org/v2/soccerseasons/', 
     headers: {'X-Auth-Token': token},
     shortNameLeague: "BL1",
     shortNameTeam: "HSV",
